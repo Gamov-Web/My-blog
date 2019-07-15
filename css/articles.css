@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+.header__top{
+    background-color: #213c71;
+}
+.top__menu{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 34px 0 25px 15px;
+}
+.logo__title{
+    color: #fff;
+    font-size: 27px;
+    margin-left: 33px;
+    text-decoration: none;
+}
+.nav{
+    padding-left: 221px;
+    align-items: center;
+}
+ul.nav__menu{
+    margin: 0;
+    padding: 0;
+}
+li.menu__li{
+    display: inline-block;
+    list-style: none;
+    font-size: 17px;
+    margin-left: 32px;
+}
+.nav__menu li:first-child{
+    margin-left: 0;
+}
+.menu__li a{
+    text-decoration: none;
+    color: #bababa;
+}
+.nav__menu a:hover{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: underline;
+}
+.button{
+    width: 194px;
+    height: 48px;
+    border-radius: 9px;
+    background-color:#bd1c39;
+    border: none;
+    cursor: pointer;
+}
+.button:focus{
+    outline: none;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+}
+.articles{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.article{
+    box-sizing: border-box;
+    width: 1005px;
+    height: 447px;
+    padding: 27px 30px 38px 30px;
+    margin-top: 50px;
+    background-color: #d9e2f2;
+}
+.article__content{
+    display: flex;
+    justify-content: center;
+}
+.article__left{
+    text-align: left;
+    margin-right: 30px;
+}
+.article__data{
+    display: flex;
+    font-size: 14px;
+}
+.date{
+    padding-right: 11px;
+}
+.name__article{
+    font-size: 31px;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.article__text{
+    font-size: 17px;
+    line-height: 19px;
+    margin-bottom: 31px;
+}
+.article__image{
+    width: 458px;
+    height: 304px;
+}
+.pages{
+    background-color: #d9e2f2;
+    width: 270px;
+    height: 27px;
+    border: 1px solid #213c71;
+    margin: auto;
+    margin-top: 50px;
+}
+.arrow__up{
+    display: flex;
+    justify-content: end;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: url("../img/arrow.svg") no-repeat center;
+    background-color: #d9e2f2;
+    float: right;
+    margin-bottom: 44px;
+}
+.wrapper{
+    clear: both;
+}
+.footer{
+    background-color: #213c71;
+}
+.copyright{
+    padding: 52px 0 52px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
