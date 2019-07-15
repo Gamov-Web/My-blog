@@ -11,42 +11,54 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__top">
+        <div class="header__top" id="header__top">
             <div class="container">
-                <div class="logo">
-                    <a href="#"><img class="logo__image" src="img/logo.png"></a>
-                    <a class="logo__title" href="#">Zitronius</a>
+                <div class="top__menu">
+                    <div class="logo">
+                        <a href="#"><img class="logo__image" src="img/logo.png"></a>
+                        <a class="logo__title" href="#">Zitronius</a>
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav__menu">
+                            <li class="menu__li"><a href="#">Главная</a></li>
+                            <li class="menu__li"><a href="#">Статьи</a></li>
+                            <li class="menu__li"><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav class="nav">
-                    <ul class="nav__menu">
-                        <a href="#"><li class="menu__li">Главная</li></a>
-                        <a href="#"><li class="menu__li">Статьи</li></a>
-                        <a href="#"><li class="menu__li">Контакты</li></a>
-                    </ul>
-                </nav>
             </div>
         </div>
         <div class="offer">
-            <h1 class="offer__title">Мой блог</h1> 
+            <div class="container">
+                <h1 class="offer__title">Мой блог</h1> 
+            </div>
         </div>
     </header>
-    <div class="about">
-        <h2 class="about__title">Кто я?</h2>
-        <div class="about__content">
-            <div class="about__text">
-                <p>Коллективное бессознательное, в первом приближении, однократно. Кризис, по определению, осознаёт позитивистский филогенез. Самость иллюстрирует потребительский импульс. Скиннер, однако, настаивал, что связь иллюстрирует экзистенциальный субъект. Предсознательное просветляет эгоцентризм. Роль, на первый взгляд, начинает сексуальный интеллект.</p>
-                <p>Наши исследования позволяют сделать вывод о том, что субъект притягивает конвергентный страх. Восприятие представляет собой социометрический закон. Конечно, нельзя не принять во внимание тот факт, что акцентуация начинает девиантный инсайт, это обозначено Ли Россом как фундаментальная ошибка атрибуции, которая прослеживается во многих экспериментах. Фрустрация, как справедливо считает Ф.Энгельс, вызывает девиантный стресс.</p>
+    <div class="container">
+        <div class="about">
+            <h2 class="about__title">Кто я?</h2>
+            <div class="about__content">
+                <div class="about__text">
+                    <p>Коллективное бессознательное, в первом приближении, однократно. Кризис, по определению, осознаёт позитивистский филогенез. Самость иллюстрирует потребительский импульс. Скиннер, однако, настаивал, что связь иллюстрирует экзистенциальный субъект. Предсознательное просветляет эгоцентризм. Роль, на первый взгляд, начинает сексуальный интеллект.</p>
+                    <p>Наши исследования позволяют сделать вывод о том, что субъект притягивает конвергентный страх. Восприятие представляет собой социометрический закон. Конечно, нельзя не принять во внимание тот факт, что акцентуация начинает девиантный инсайт, это обозначено Ли Россом как фундаментальная ошибка атрибуции, которая прослеживается во многих экспериментах. Фрустрация, как справедливо считает Ф.Энгельс, вызывает девиантный стресс.</p>
+                </div>
+                <div class="image">
+                    <img class="image__man" src="img/man.jpg">
+                    <div class="image__shadow"></div>
+                </div>
             </div>
-            <div class="image">
-                <img class="image__man" src="img/man.jpg">
-                <div class="image__shadow"></div>
+            <button class="button"><a href="#">Читать блог</a></button>
+            <div class="wrapper">
+                <a href="#header__top"><div class="arrow__up"></div></a>
             </div>
         </div>
-        <button class="button"><a href="#">Читать блог</a></button>
     </div>
     <footer class="footer">
-
+        <div class="container">
+            <div class="copyright">
+                Все права защищены 2019
+            </div>
+        </div>
     </footer>
-    </div>
 </body>
 </html>
