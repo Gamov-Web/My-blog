@@ -113,6 +113,7 @@ li.menu__li{
     height: 48px;
     border-radius: 9px;
     background-color:#bd1c39;
+    color: #fff;
     border: none;
     cursor: pointer;
 }
@@ -121,7 +122,6 @@ li.menu__li{
 }
 .button a{
     text-decoration: none;
-    color: #fff;
     text-align: center;
     font-size: 17px;
 }
